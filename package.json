@@ -1,5 +1,9 @@
 {
   "name": "message-me",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^2.0.0",
+    "prettier": "^2.4.1"
+  }
 }
