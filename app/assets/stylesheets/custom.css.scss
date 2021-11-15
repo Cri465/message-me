@@ -1,8 +1,19 @@
 @import "semantic-ui";
 
 .chatbox{
-    height: 700px;
+    height:700px;
 }
+#messages{
+    overflow:auto;
+    height:700px;    
+}
+
 #loginBox{
     height: 700px;
+    height:15em;
+}
+.input{
+    button{
+        display:none;
+    }
 }

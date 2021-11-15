@@ -3,6 +3,8 @@ class ChatroomController < ApplicationController
 
   def index
     @message = Message.new
-    @messages = Message.all
+    # @messages = Message.all.reject { |i| i.id < Message.last.id - 100 }
+    # rubier way of doing it, would select the most recent 100 messages
+    @messages = Message.custom_display
   end
 end
